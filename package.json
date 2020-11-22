@@ -1,6 +1,6 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2020-11-08",
+  "lastestUpdatedAt": "2020-11-22",
   "version": "1.0.4",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "preexport": "npm run clean && npm run build",
     "postexport": "node shellwork.js",
     "clean": "npx rimraf docs .next",
-    "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
+    "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
   "homepage": "https://uyu423.github.io/resume-nextjs",
@@ -28,14 +28,14 @@
     "next"
   ],
   "author": {
-    "name": "Yowu Yu",
-    "email": "me@yowu.dev",
-    "url": "https://yowu.dev"
+    "name": "Junsu Shin",
+    "email": "junsushin4546@mail.com",
+    "url": "https://github.com/junsushin-dev"
   },
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uyu423/resume-nextjs/issues"
+    "url": "https://github.com/junsushin-dev/resume-nextjs/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.31",

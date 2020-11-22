@@ -5,49 +5,21 @@ const backend: ISkill.Skill = {
   items: [
     {
       title: 'Node.js',
-      level: 3,
     },
     {
-      title: 'AWS',
-      level: 3,
+      title: 'Express.js',
     },
-    {
-      title: 'PHP',
-      level: 2,
-    },
-    {
-      title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
-      level: 1,
-    },
-  ],
-};
-
-const database: ISkill.Skill = {
-  category: 'Database',
-  items: [
     {
       title: 'MySQL',
-      level: 3,
     },
     {
-      title: 'Oracle',
-      level: 2,
+      title: 'Sequelize',
     },
     {
-      title: 'Redis',
-      level: 2,
+      title: 'Passport.js',
     },
     {
-      title: 'MongoDB',
-      level: 1,
+      title: 'Naver Cloud Platform',
     },
   ],
 };
@@ -56,20 +28,16 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
+      title: 'JavaScript(ES6)',
     },
     {
-      title: 'React.js',
-      level: 2,
+      title: 'React',
     },
     {
-      title: 'javascript',
-      level: 2,
+      title: 'Sass',
     },
     {
       title: 'HTML/CSS',
-      level: 2,
     },
   ],
 };
@@ -81,27 +49,22 @@ const etc: ISkill.Skill = {
       title: 'Ubuntu',
     },
     {
-      title: 'Vim',
-    },
-    {
-      title: 'Security',
-    },
-    {
       title: 'VS Code',
     },
     {
-      title: 'Jira',
+      title: 'Git / GitHub',
     },
     {
-      title: 'Confluence',
+      title: 'GitHub Actions CI/CD',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  skills: [backend, frontend, etc],
+  // tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  tooltip: '사용할 수 있는 기술 스택을 정리한 섹션입니다.'
 };
 
 export default skill;

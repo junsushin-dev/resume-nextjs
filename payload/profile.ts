@@ -1,7 +1,7 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faBirthdayCake, faBookmark, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/profile.png';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -10,38 +10,36 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '신준수',
+    small: '(Junsu Shin)',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
-      link: '#',
+      title: '1993.02.03',
+      icon: faBirthdayCake,
+    },
+    {
+      title: 'junsushin4546@gmail.com',
+      link: 'mailto:junsushin4546@gmail.com',
       icon: faEnvelope,
     },
+    // {
+    //   title: 'Please contact me by email',
+    //   icon: faPhone,
+    //   badge: true,
+    // },
     {
-      title: 'Please contact me by email',
-      icon: faPhone,
-      badge: true,
-    },
-    {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/junsushin-dev',
+      link: 'https://github.com/junsushin-dev',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
-    },
-    {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
+      link: 'https://junsushin.tistory.com',
+      icon: faBookmark,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: "자세한 포트폴리오는 'https://github.com/junsushin-dev'를 방문해 주시기 바랍니다.",
     icon: faBell,
   },
 };
