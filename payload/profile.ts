@@ -18,11 +18,11 @@ const profile: IProfile.Payload = {
       title: '1993.02.03',
       icon: faBirthdayCake,
     },
-    {
-      title: 'junsushin4546@gmail.com',
-      link: 'mailto:junsushin4546@gmail.com',
-      icon: faEnvelope,
-    },
+    // {
+    //   title: 'junsushin4546@gmail.com',
+    //   link: 'mailto:junsushin4546@gmail.com',
+    //   icon: faEnvelope,
+    // },
     // {
     //   title: 'Please contact me by email',
     //   icon: faPhone,
