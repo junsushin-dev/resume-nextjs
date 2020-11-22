@@ -6,13 +6,13 @@ const education: IEducation.Payload = {
   list: [
     {
       title: '고려대학교',
-      subTitle: '경영학과 / 컴퓨터학과(이중전공) 학사 졸업',
+      subTitle: '경영학과 / 컴퓨터학과(이중전공) 학사 졸업 (4.28/4.5)',
       startedAt: '2012-03',
       endedAt: '2019-08',
     },
     {
       title: 'The University of British Columbia (UBC)',
-      subTitle: 'Exchange Student in Business School / Computer Science Dept.',
+      subTitle: 'Exchange student in Business School & Computer Science Dept.',
       startedAt: '2018-09',
       endedAt: '2018-12',
     },

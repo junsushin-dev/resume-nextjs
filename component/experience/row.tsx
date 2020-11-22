@@ -81,7 +81,7 @@ function createWorkingPeriod(startedAtString: string, endedAtString?: string) {
       <Col md={12} xs={isWorking ? 7 : 9}>
         <h4 style={Style.gray}>{periodTitle}</h4>
       </Col>
-      <Col md={12} xs={isWorking ? 5 : 3} className="text-md-right text-center">
+      {/* <Col md={12} xs={isWorking ? 5 : 3} className="text-md-right text-center">
         {isWorking ? (
           <Badge color="primary" className="mr-1">
             참가 중
@@ -89,8 +89,8 @@ function createWorkingPeriod(startedAtString: string, endedAtString?: string) {
         ) : (
           ''
         )}
-        {/* <Badge color="info">{Util.getFormattingDuration(startedAt, endedAt)}</Badge> */}
-      </Col>
+        <Badge color="info">{Util.getFormattingDuration(startedAt, endedAt)}</Badge>
+      </Col> */}
     </Row>
   );
 }
